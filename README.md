@@ -94,7 +94,7 @@ Port 2222
 
 ```text
 Match User <<ユーザ名>>
-    ChrootDirectory <<ルートフォルダ>>
+    ChrootDirectory "C:\Program Files\FileMaker\FileMaker Server"
     ForceCommand internal-sftp
     AllowTcpForwarding no
     PermitTunnel no
